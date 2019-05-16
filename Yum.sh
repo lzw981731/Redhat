@@ -20,29 +20,26 @@
 	cd /etc/yum.repos.d
 	#备份
 	mv /etc/yum.repos.d/CentOS-Base.repo /etc/yum.repos.d/CentOS-Base.repo.backup
-	
-  #启动游戏服务器
-  cd /root
-  ./start
- #启动完成
+	#下载
+	wegt https://github.com/lzw981731/Redhat/raw/master/CentOS-Base.repo
 	echo "------------------------------------------------"
-	echo '|	恭喜您，诛仙 3安装完成！  		 |'	
+	echo '|	恭喜您，YUM安装完成！  		 |'	
 	echo "------------------------------------------------"
 }
 
-###卸载诛仙3
+###卸载YUM
 function uninstall(){
-	rm -rf /root/zxserver
-	rm -rf /root/zx.tar.gz
+	rm -rf /root/zxserver11
+	rm -rf /root/zx.tar.gz111
 	echo "------------------------------------------------"
-	echo '诛仙 3已卸载！				 |'	
+	echo 'YUM已卸载！				 |'	
 	echo "------------------------------------------------"
 }
 
 echo "------------------------------------------------------------"
-echo '一键安装诛仙3脚本 ^_^ 请选择需要执行的操作：'
-echo "1) 安装诛仙3"
-echo "2) 卸载诛仙 3"
+echo '一键安装YUM脚本 ^_^ 请选择需要执行的操作：'
+echo "1) 安装YUM"
+echo "2) 卸载YUM"
 echo "q) 退出！"
 echo "------------------------------------------------------------"
 read -p ":" istype
