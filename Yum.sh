@@ -5,7 +5,7 @@
 #####		更新时间：2019-04-20			#####
 #安装依赖
 #下载源码
-	wget http://soft.tob.im/manage/yum_forAS4.tar.gz
+	wget https://github.com/lzw981731/Redhat/raw/master/yum_forAS4.tar.gz
 	#解压yum包
 	tar zxvf yum_forAS4.tar.gz	
 	#进入um_forAS4目录
