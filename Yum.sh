@@ -5,7 +5,7 @@
 #####		更新时间：2019-04-20			#####
 #安装依赖
 #下载源码
-	wget https://github.com/lzw981731/Redhat/raw/master/yum_forAS4.tar.gz
+	wget http://github.com/lzw981731/Redhat/raw/master/yum_forAS4.tar.gz
 	#解压yum包
 	tar zxvf yum_forAS4.tar.gz	
 	#进入um_forAS4目录
@@ -21,7 +21,7 @@
 	#备份
 	mv /etc/yum.repos.d/CentOS-Base.repo /etc/yum.repos.d/CentOS-Base.repo.backup
 	#下载
-	wegt https://github.com/lzw981731/Redhat/raw/master/CentOS-Base.repo
+	wegt http://github.com/lzw981731/Redhat/raw/master/CentOS-Base.repo
 	echo "------------------------------------------------"
 	echo '|	恭喜您，YUM安装完成！  		 |'	
 	echo "------------------------------------------------"
